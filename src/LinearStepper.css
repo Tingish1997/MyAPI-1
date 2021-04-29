@@ -1,0 +1,27 @@
+
+body {
+    margin: 0;
+    background-color:rgb(240, 236, 236) !important;
+  }
+
+h1{
+    text-align:center;
+}
+
+p{
+    text-align:center;
+}
+
+.container2{
+    margin:5em 10em 5em 5em;
+    border: 1px solid;
+    border-color: aliceblue;
+}
+
+.mycard{
+    width: 80%;
+    display: grid;
+    padding: 2em;
+    margin-bottom:2em;
+}
+  
