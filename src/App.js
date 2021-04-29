@@ -13,7 +13,7 @@ class App{
   }   
 }
 
-function app() {
+function App() {
   return (
     <>
       <ThemeProvider theme={theme}>
