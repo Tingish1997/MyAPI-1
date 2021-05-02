@@ -50,7 +50,6 @@ function getStepContent(step) {
   }
 }
 
-module.exports = getStepContent;
 
 const LinearStepper = () => {
   const [activeStep, setActiveStep] = useState(0);
