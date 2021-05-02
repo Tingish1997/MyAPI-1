@@ -19,8 +19,8 @@ import ThirdStep from './Components/ThirdStep';
 
 function getSteps() {
   return [
-    "Mis Datos",
-    "Pago",
+    "Info",
+    "Application",
   ];
 }
 
@@ -92,7 +92,7 @@ const LinearStepper = () => {
         })}
       </Stepper>
       <Grid container justify="center" alignItems="center" direction="column">
-      <Paper component={Box} p={7} m={5}>
+      <Paper component={Box} p={7} m={5} className="myPaper">
       
         {activeStep === steps.length ? (
         <Typography  align="center">
@@ -108,7 +108,7 @@ const LinearStepper = () => {
             color="primary"
             variant="outlined"
           >
-            <ArrowBackIcon/>Anterior
+            <ArrowBackIcon/>Previous
           </Button>
           )}          
           <Button 
@@ -118,7 +118,7 @@ const LinearStepper = () => {
             onClick={handleNext}
             style={{ float:"right"}}
           >
-            {activeStep === steps.length - 1 ? "Pagar" : "Continuar"}
+            {activeStep === steps.length - 1 ? "Complete" : "Next"}
             <ArrowForwardIcon/>
           </Button>
         </>

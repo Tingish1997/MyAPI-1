@@ -1,29 +1,30 @@
 import React from 'react'
 import {TextField} from '@material-ui/core';
+import {Grid} from "@material-ui/core";
 
 
 export default function FirstStep() {
   const step = 0  
   return (
         <div>
-        <h1>Mis Datos</h1>
-          <p>Revisa los datos y completa aquellos pendientes antes de continuar con el proceso.</p>
+        <h1>Info</h1>
+          <p>Please enter your information.</p>
+          <Grid container justify="center" alignItems="center" direction="column">
           <TextField
-            id="Nombre"
-            label="Nombre"
+            id="Name"
+            label="Name"
             variant="outlined"
-            placeholder="Nombre"
-            fullWidth
+            placeholder="Name"
             margin="normal"
           />
           <TextField
-            id="Apellidos"
-            label="Apellidos"
+            id="Last Name"
+            label="Last Name"
             variant="outlined"
-            placeholder="Apellidos"
-            fullWidth
+            placeholder="Last Name"
             margin="normal"
           /> 
+          </Grid>
           </div>
     )
 }

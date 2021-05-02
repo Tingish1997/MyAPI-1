@@ -73,7 +73,7 @@ export default function PrimarySearchAppBar() {
       open={isMenuOpen}
       onClose={handleMenuClose}
     >
-      <MenuItem onClick={handleMenuClose}>Es</MenuItem>
+      <MenuItem onClick={handleMenuClose}>Hindi</MenuItem>
       <MenuItem onClick={handleMenuClose}>En</MenuItem>
     </Menu>
   );
@@ -92,13 +92,13 @@ export default function PrimarySearchAppBar() {
       <MenuItem>
         <IconButton  color="inherit">
         </IconButton>
-        <p>Iniciar</p>
+        <p>Log In</p>
       </MenuItem>
       <MenuItem>
         <IconButton  color="inherit">
         <AddIcCallIcon />
         </IconButton>
-        <p>Ayuda</p>
+        <p>Help</p>
       </MenuItem>
       <MenuItem onClick={handleProfileMenuOpen}>
         <IconButton
@@ -106,7 +106,7 @@ export default function PrimarySearchAppBar() {
         >
           <AccountCircle />
         </IconButton>
-        <p>Idiomas</p>
+        <p>Languages</p>
       </MenuItem>
     </Menu>
   );
@@ -116,17 +116,17 @@ export default function PrimarySearchAppBar() {
       <AppBar position="static">
         <Toolbar>
           <Typography className={classes.title} variant="h6" noWrap>
-            Seidor My API
+            Hogwarts Academy
           </Typography>
           
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>
             <IconButton color="inherit">
               <AddIcCallIcon />
-              <p>Ayuda</p>               
+              <p>Help</p>               
             </IconButton>
             <IconButton color="inherit">
-              <p>Iniciar</p> 
+              <p>Log In</p> 
             </IconButton>
             <IconButton
               edge="end"

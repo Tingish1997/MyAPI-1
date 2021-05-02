@@ -16,14 +16,16 @@ export const theme = createMuiTheme({
       }
     },
     MuiTextField: {
-      root: {}
+      root: {},
+      margin:"normal",
+      width:"20em",
     },
     MuiButton: {
       root: {
         borderRadius: 30,
         textTransform: "none",
         padding: "20px",
-        width:"10em"
+        width:"10em",
       },
     },
     MuiStepIcon:{

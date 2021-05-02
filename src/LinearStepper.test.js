@@ -8,8 +8,8 @@ import { Functions } from '@material-ui/icons';
 //test getSteps of Stepper
 
 describe("getStepContent function", () => {
-    it("Mis Datos", () => {
-        expect(getStepContent(0)).toEqual(FirstStep);
-      });
-  });
+    it("Info", () => {
+    expect(getStepContent(0)).toEqual(FirstStep);
+    });
+});
 
