@@ -23,12 +23,7 @@ export const theme = createMuiTheme({
         borderRadius: 30,
         textTransform: "none",
         padding: "20px",
-      },
-      fullWidth: {
-        maxWidth: "800em"
-      },
-      '&:hover': {
-        props: {variant:"contained !important"}
+        width:"10em"
       },
     },
     MuiStepIcon:{
